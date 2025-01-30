@@ -14,7 +14,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Services\" />
+    <ProjectReference Include="..\StockTrading.Application\StockTrading.Application.csproj" />
+    <ProjectReference Include="..\StockTrading.Core\StockTrading.Core.csproj" />
+    <ProjectReference Include="..\StockTrading.Infrastructure\StockTrading.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
